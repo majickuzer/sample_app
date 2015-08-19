@@ -8,4 +8,7 @@ class ApplicationController < ActionController::Base
   def quitter
     render text: "Fine then, quitter!"
   end
+  def brad
+    render text: "Hi Brad!"
+  end
 end
